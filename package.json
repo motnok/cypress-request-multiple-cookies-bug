@@ -1,0 +1,17 @@
+{
+  "name": "cypress-multiple-cookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "cypress": "CYPRESS_baseUrl=http://localhost:3000 cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.2",
+    "express": "^4.17.1"
+  }
+}
